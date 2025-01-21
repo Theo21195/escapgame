@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Game - Démocratie</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <!-- Section d'introduction -->
+    <section id="introduction">
+        <h1>Bienvenue dans l'Escape Game</h1>
+        <p>Testez vos connaissances sur la démocratie et les événements historiques !</p>
+        <button id="startGame">Démarrer le jeu</button>
+    </section>
+
+    <!-- Section du jeu -->
+    <section id="game" style="display: none;">
+        <h2>Première énigme</h2>
+        <p>Quel est l'année de la Révolution Française ?</p>
+        <input type="text" id="inputCode" placeholder="Entrez le code ici">
+        <button id="submitCode">Valider</button>
+        <p id="feedback"></p>
+    </section>
+
+    <!-- Section de fin -->
+    <section id="endGame" style="display: none;">
+        <h2>Bravo !</h2>
+        <p>Vous avez résolu l'énigme et terminé le jeu !</p>
+    </section>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
